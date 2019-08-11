@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sanjaymurugan.sojournhappy.User_login">
+
+    <ImageView
+        android:id="@+id/logoappadminpage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@mipmap/applogo"/>
+
+    <EditText
+        android:id="@+id/usernametv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/passwordtv"
+        android:layout_below="@+id/logoappadminpage"
+        android:layout_marginTop="15dp"
+        android:hint="Username"
+        android:textSize="18dp"
+        android:layout_marginRight="30dp"
+        android:layout_alignLeft="@+id/passwordtv" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordtv"
+        android:inputType="textWebPassword"
+        android:layout_marginTop="24dp"
+        android:hint="Password"
+        android:layout_below="@+id/usernametv"
+        android:textSize="18dp"
+        android:layout_margin="30dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginbtn"
+        android:layout_below="@id/passwordtv"
+        android:text="LOGIN"
+        android:textSize="18dp"
+        android:layout_marginTop="5dp"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:id="@+id/sign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click here to create a new id"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/loginbtn"/>
+
+</RelativeLayout>

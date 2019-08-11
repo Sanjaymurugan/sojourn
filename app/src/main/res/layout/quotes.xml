@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/quote"
+        android:id="@+id/img" />
+
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:id="@+id/tvquotes1"
+        android:textSize="20dp"
+        android:text="Donate Red"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/img" />
+
+    <TextView
+        android:id="@+id/tvquotes2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvquotes1"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="Spread Green"
+        android:textColor="#008000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvquotes3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvquotes2"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:gravity="center"
+        android:text="Save Blue"
+        android:textColor="#0000FF"
+        android:textSize="20dp" />
+
+    <!--<TextView-->
+        <!--android:id="@+id/des"-->
+        <!--android:layout_below="@+id/tvquotes1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Live and Let live"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:gravity="center"/>-->
+
+</RelativeLayout>

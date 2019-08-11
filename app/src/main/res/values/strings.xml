@@ -1,0 +1,150 @@
+<resources>
+    <string name="app_name">Sojournhappy</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_coimbatore">coimbatore</string>
+    <string name="title_activity_placevaalpaarai">placevaalpaarai</string>
+    <string name="title_activity_placeooty">placeooty</string>
+    <string name="title_activity_ootyimpoplaces">ootyimpoplaces</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_listooty">listooty</string>
+    <string name="title_activity_listvaalpaarai">listvaalpaarai</string>
+    <string name="malampuzha_dam">Malampuzha Dam</string>
+    <string name="snake_rehabilitation_centre">Snake Rehabilitation Center</string>
+    <string name="fishpark">Fish Park</string>
+    <string name="rockgarden">Rock Garden</string>
+    <string name="ropeway">Rope Way</string>
+    <string name="fantasypark">Fantasy Park</string>
+    <string name="kavareservoirviewpoint">Kava Reservoir View Point</string>
+    <string name="kavaviewpoint">Kava View Point</string>
+    <string name="malampuzhabirdwatchingarea">Malampuzha Bird Watching Area</string>
+    <string name="malampuzhadamviewpoint">Dam View Point</string>
+    <string name="kovaikutralam">Kovai Kutralam</string>
+    <string name="eshayoga">Isha Yoga Center</string>
+    <string name="title_activity_allimpplaces">allimpplaces</string>
+    <string name="malampuzhadam">Malampuzha am is the Largest Reservoir in Kerala,Located near Palakkad
+        in south india with the scenic hills of the western ghats in the background.
+    Timings : <b>on monday to friday 8 Am to 6 Pm.
+             on saturday and sunday 8 Am to 8 Pm.
+            best time to visit the dam is 4 Pm to 6 Pm.</b>
+        Visit duration 2-3 hours.
+        <b>Entry fees for adults is 20 rupees and
+            childrens is 10 rupees</b></string>
+    <string name="snakerehabcentre">Malampuzha Snake Rescue and Rehabilitation centre is maintained by the Kerala ForestDepartment,palakkad.
+    <b>Timings : on tuesday to sunday 8 Am to 6 Pm.
+         Every Monday is a Holiday.
+        Entry fees for adult is 20 rupees and for childrens is 10 rupees.
+        Best time to visit the snake rehabilitation centre is 10 Am.</b>
+    </string>
+    <string name="Fishpark">A fresh-water aquarium, shaped like a giant fish,is situated outside the Malampuzha Gardens
+        on the way to the Ropeway entrance.
+        Visitors get inside the aquarium through the wide opened mouth of the fish.
+        Though not having a large collection, various varieties of fishes and other marine specimen are exhibited.
+        <b>The aquarium is open from 10:00 AM to 8:00 PM.
+        Best time to visit is 3 Pm.
+            Entry fees for adults is 20 rupees and children is 10 rupees.</b>
+        The aquarium is operated by the Kerala Governemt Fisheries Department, which also runs a fish culture in the reservoir.
+    </string>
+    <string name="RockGarden">Malampuzha Rock Garden is the first rock garden of South India.
+        The most interesting feature of the rock garden is that the whole place is made of unwanted and broken pieces of bangles,
+        tiles, used plastic cans, tins and other waste materials.
+        The garden is a master work of sculptor Padmasree Neck Chand Saini of Chandigarh.
+        His rock garden in Chandigarh is world famous and attracts thousands of tourists every year.
+        <b>The garden is illuminated with coloured lights on Weekends.
+         The aquarium is open from 10:00 AM to 6:00 PM.
+        Best time to visit is 11 Am.
+            Entry fees for adults is 20 rupees and children is 10 rupees.</b>
+    </string>
+    <string name="rope">There is a ropeway running parallel to the Dam, which is first of its kind in South India.
+        The ropeway gives a 20 minutes thrilling ride with an aerial view of the Malampuzha Gardens and the Dam.
+        This 2000 ft long ropeway runs at a height of 60 feet from the ground. There are 64 rope cars,
+        each with a capacity of 2 persons.<b>The Ropeway operates from 10:00 AM to 12:30 PM and also 2:00 Pm to 6:30 Pm,</b>
+        and safety gadgets are provided.
+        The ropeway, named "Udan Khatola", is operated by Usha Breco Ltd., an ISO 9001:2008 company.</string>
+    <string name="fantasyp">Inside the Malampuzha Gardens in a Childrens park which contain lots of recreational
+        and enjoyment facilities for children.
+        There are plenty of slides, see-saws, merry-go-rounds, swingsets, overhead ladders and the like.
+        There is also a Toy train that goes round the Childrens park.
+        <b>The Childrens Park is open from 10:00 AM to 6:00 PM.
+            Entry fees for adults : 469 rupees,children below 4 feet : 352 rupees,senior citizen : 312 rupees,college student:440 rupees</b>
+        It is pretty safe to leave children there,
+        as the park is well surrounded by fence,
+        and children cannot accidentally go out of the park.</string>
+    <string name="kavareserve">Kava is an awesome and silent scenic spot located on the other side of the Malampuzha Dam.
+        There are no public transport systems available to the place. Either drive through the Malampuzha - Kanjikode road and take left to Kava - Anakkal Road (after Rock Gardens),
+        or walk straight after the end of the dam, along the catchment area. (It is too much to walk, you are warned).
+        The waves of water will make you feel you are on a sea shore.
+        The location would be an unforgettable delight for Nature lovers and photographers.</string>
+    <string name="kavaeastview">Kava is the womb of the rain clouds. The first rain cloud forms in Kava, then throughout Kerala. Kava is the best place to
+relish Kerala Monsoon due to its perfect background of the Hills and Reservoir.
+        We can see the speed and twirl of the clouds. The speed of the clouds is very faster
+        than the speed of the water and wind. They come together and scattered away within seconds.
+        Seeing the extra ordinary demonstration of the clouds of Kava,
+        the wrath of sea in "The Tempest" of Shakespeare will come to our mind.</string>
+    <string name="birdwatcharea">Palakkad (Kerala) is strategically located on Foothills of Western Ghat areas (such as Neliampathy, Parambikulam), which are excellent bird watching areas. Siruvani Reservoir, an area known for Bird watching near Coimbatore is also accessible from Palakkad.
+
+Located at the southern tip of the Palakkad gap, the Nelliampathi hills (60 kms from Palakkad)
+        are known for their exquisite fauna. <b>About 215 species of birds and 90 species of butterflies</b>
+        have been recorded in these hills. Some of the rare species of birds include Grey-breasted Laughing Thrush,
+        Great Pied Hornbill, Jerdon's Baza, Great Black Woodpecker, Oriental Broad-billed Roller,
+        Nilgiri Flycatcher, Broad-tailed Grassbird and Nilgiri Pipit. Primates including Lion-tailed Macaque,
+        Bonnet Macaque and Nilgiri Langur are seen here.</string>
+    <string name="damviewpointmalampuzha">The construction of this massive dam took around six years for completion.
+        The construction was initiated in 1949 and completed by 1955.
+        This mix of missionary and earthen dam has a catchment area of 145 sq. Kilometres and
+        crosses the Malampuzha River, which is a tributary of Bharathappuzha.
+        After the inauguration of the Malampuzha Dam,
+        Palakkad and Malampuzha became a part of the newly formed state of Kerala.
+        The government then initiated the Malampuzha Gardens at the front of the dam.
+    </string>
+    <string name="kovaikutralamdesc">
+    As the waterfall is located amidst a protected forest area, vehicles are not allowed.
+    Blessed with a pleasant and cool atmosphere with the melodious sound of the waterfall and chirping of birds in it,the place feels fresh and lively in every sense of the word.
+    <b>->Opening times
+         All the days of week except Monday
+    ->Timings
+         10.00 Am to 3.30 Pm
+    ->Entry fees
+        Adult-50 rupees
+        Children-25 rupees
+        Camera-100 rupees
+    ->Visit Duration
+        1 to 2 hour</b>
+    Phone number:09578590927.
+    Control - Forest Department
+</string>
+    <string name="eshadesc">The Dhyanalinga is set amidst the lush dense forests at the foothills of the Velliangiri Mountains.
+        This powerful meditative space does not ascribe to any particular faith or belief system nor does it require any ritual, prayer, or worship.
+        "Just sitting silently for a few minutes within the sphere of Dhyanalinga is enough to make even those unaware of meditation experience a state of deep meditativeness"
+        <b>->Timings
+             All Days
+             6.00 Am to 8.00 Pm
+        ->Visit Durations
+             1 to 2 hour
+        ->Entry fees
+            no</b>
+        ->Good for
+        God lovers,Wanderers,Nirvana seekers and Experience seekers.
+        contact
+           +91-422-2515345
+           +91-422-2515346
+    </string>
+    <string name="title_activity_kovaikutralam">kovaikutralam</string>
+    <string name="title_activity_appadminlogin">appadminlogin</string>
+    <string name="title_activity_appadminvisit">appadminvisit</string>
+    <string name="title_activity_appadminlogintonext">appadminlogintonext</string>
+    <string name="title_activity_about_us">About_us</string>
+    <string name="title_activity_emergency1">Emergency1</string>
+    <string name="title_activity_cleanindia">cleanindia</string>
+    <string name="title_activity_user">User</string>
+    <string name="title_activity_create_user">create_user</string>
+    <string name="title_activity_admin_login">admin_login</string>
+
+
+</resources>

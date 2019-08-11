@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/dfg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sanjaymurugan.sojournhappy.Help"
+    tools:showIn="@layout/app_bar_help">
+
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="17dp"
+        android:text="HELP US"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_marginLeft="11dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/text8"
+        android:layout_marginTop="31dp"
+        android:paddingHorizontal="10dp"
+        android:text="Why there is a delay while looking for map?"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="163dp"
+        tools:layout_editor_absoluteY="54dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="13dp"
+        android:paddingHorizontal="10dp"
+        android:text="Delay is based on the network speed and network bandwidth"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="34dp"
+        android:textStyle="bold"
+        android:paddingHorizontal="10dp"
+        android:textColor="#ffffff"
+        android:text="Is the restricted area mentioned in the app is correct?"
+        android:textSize="20sp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:textColor="#ffffff"
+        android:paddingHorizontal="10dp"
+        android:text="Restricted area is displayed here is based on the survey we taken under this area."
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="10dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginEnd="12dp"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:layout_marginTop="106dp"
+        android:text="What does the red color indicate in the map?"
+        android:textSize="20sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="12dp" />
+
+    <ImageView
+        android:id="@+id/restricted_area"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@mipmap/restrictedplace"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textView6"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_toRightOf="@+id/restricted_area"
+        android:text="This means that the places are restricted"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_marginLeft="5dp"/>
+
+
+
+</RelativeLayout>

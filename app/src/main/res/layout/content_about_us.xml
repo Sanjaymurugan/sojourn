@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sanjaymurugan.sojournhappy.About_us"
+    tools:showIn="@layout/app_bar_about_us"
+    android:background="@mipmap/dfg">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginTop="51dp"
+        android:shadowColor="#000000"
+        android:text="ABOUT US"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:layout_alignLeft="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:shadowColor="#0000"
+        android:shadowDx="10000"
+        android:shadowDy="10000"
+        android:shadowRadius="50"
+        android:layout_below="@+id/textView3"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="40dp"
+        android:text="Tourism in India is economically important and growing rapidly.Tourism means people traveling for fun and site seeing.This app will gives the complete details about the places like kovai kutralam in coimbatore and malampuzha in Kerala.Our main aim is to encourage tourism .Tourist would came to know what are the things are famous and the most popular places to be visited.This app is easily accessed and very useful to the tourists."
+        android:textColor="#ffffff"
+        android:textSize="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="11dp" />
+
+</RelativeLayout>

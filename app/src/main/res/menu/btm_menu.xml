@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/nav_destination"
+        android:icon="@drawable/destination"
+        android:enabled="true"
+        android:title="Destination"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/nav_hospital"
+        android:icon="@drawable/hospital"
+        android:enabled="true"
+        android:title="Hospital"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/nav_restaurant"
+        android:icon="@drawable/ic_restaurant_black_24dp"
+        android:enabled="true"
+        android:title="Restaurant"
+        app:showAsAction="ifRoom"/>
+    <!--<item-->
+        <!--android:id="@+id/nav_market"-->
+        <!--android:icon="@drawable/ic_add_shopping_cart_black_24dp"-->
+        <!--android:enabled="true"-->
+        <!--android:title="Market"-->
+        <!--app:showAsAction="ifRoom"/>-->
+    <item
+        android:id="@+id/nav_Atm"
+        android:icon="@drawable/atm"
+        android:enabled="true"
+        android:title="ATM"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/nav_parking"
+        android:icon="@drawable/petrolbunk"
+        android:enabled="true"
+        android:title="Petrol Bunks"
+        app:showAsAction="ifRoom"/>
+</menu>

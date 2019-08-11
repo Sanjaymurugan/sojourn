@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.sanjaymurugan.sojournhappy.Home"
+    tools:showIn="@layout/app_bar_home">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/coimbatoreimgviewhome"
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/naturepic5"/>
+
+        <TextView
+            android:id="@+id/cbe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Palakkad"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp"
+            android:layout_below="@+id/coimbatoreimgviewhome"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/palakad_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The green desire"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/cbe"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:id="@+id/palakadviewhome"
+            android:scaleType="centerCrop"
+            android:layout_below="@id/palakad_des"
+            android:layout_marginTop="10dp"
+            android:src="@mipmap/naturepic5"/>
+
+        <TextView
+            android:id="@+id/palakad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coimbatore"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="25dp"
+            android:layout_below="@+id/palakadviewhome"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:id="@+id/coimbatore_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Beauty at its peak"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/palakad"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp" />
+    </RelativeLayout>
+
+
+    <!--<android.support.v4.view.ViewPager-->
+        <!--android:id="@+id/viewpager"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="200dp"-->
+        <!--android:background="@drawable/shadow"/>-->
+    <!--android:src="@mipmap/maruthamalai"-->
+
+
+
+
+</ScrollView>
